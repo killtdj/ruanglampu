@@ -1,0 +1,387 @@
+body {
+    font-family: 'Poppins', 'sans-serif';
+}
+
+img {
+    display: block;
+}
+
+.navbar {
+    height: 94px;
+    font-weight: 500;
+}
+
+.navbar-collapse {
+    background-color: white;
+}
+
+.nav-item .nav-link{
+    color: #333333;
+    text-transform: uppercase;
+}
+
+.nav-item .nav-link:hover{
+    color: #77A5B0;
+    text-transform: uppercase;
+    font-weight: 600;
+}
+
+.active .nav-link {
+    color: #77A5B0;
+    font-weight: 700;
+    text-transform: uppercase;
+    border-bottom: 4px solid #77A5B0;
+}
+
+.divider {
+    border: 1px solid #eaeaea;
+}
+
+.video-hero {
+    margin-top: 30px;
+    height: 450px;
+    background-color: grey;
+}
+
+.identifier {
+    margin: 30px 0;
+}
+
+.about-us {
+    margin: 30px 0;
+    position: relative;
+    display: inline-block;
+}
+
+.about-us .img-folder {
+    position: absolute;
+    top: 60px;
+    left: 300px;
+}
+
+.img-close {
+    position: absolute;
+    top: 7px;
+    left: 190px;
+}
+
+.about-us-text {
+    position: absolute;
+    top: 110px;
+    left: 300px;
+    font-weight: 600;
+    text-transform: uppercase;
+    font-size: 15px;
+}
+
+.about-us-desc {
+    position: absolute;
+    top: 140px;
+    left: 300px;
+    width: 700px;
+    font-size: 14px;
+}
+
+.our-works {
+    padding-top: 40px;
+    padding-left: 15px;
+}
+
+.our-works h5{
+    font-weight: 700 !important;
+}
+
+/* Tabs*/
+section {
+    padding: 10px 0;
+}
+
+#tabs .nav-tabs .nav-item.show .nav-link, .nav-tabs .nav-link.active {
+    background-color: transparent;
+    border-color: transparent transparent #f3f3f3;
+    border-bottom: 4px solid !important;
+    font-size: 20px;
+    font-weight: bold;
+}
+#tabs .nav-tabs .nav-link {
+    border: 1px solid transparent;
+    border-top-left-radius: .25rem;
+    border-top-right-radius: .25rem;
+    font-size: 20px;
+}
+
+.card-works{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 166px;
+    height: 166px;
+    margin: 25px;
+}
+
+.card-works img{
+    display: block;
+    width: 166px;
+    height: auto;
+    object-fit: cover;
+    border-radius: 5px
+}
+
+.card-img-top {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.card-wrapper {
+    padding: 30px;
+}
+
+.services {
+    padding-top: 30px;
+    padding-left: 15px;
+}
+
+.services h5{
+    font-weight: 700 !important;
+}
+
+.clients {
+    padding-top: 30px;
+    padding-left: 15px;
+}
+
+.clients h5{
+    font-weight: 700 !important;
+}
+
+.brands {
+    width: 100%;
+    padding: 40px 0;
+}
+
+.brands_slider_container {
+    padding: 0 80px;
+    background: #fff
+}
+
+.brands_slider {
+    height: 100%;
+}
+
+.brands_item {
+    height: 100%
+}
+
+.brands_item img {
+    max-width: 100%
+}
+
+.brands_nav {
+    position: absolute;
+    top: 50%;
+    -webkit-transform: translateY(-50%);
+    -moz-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    -o-transform: translateY(-50%);
+    transform: translateY(-50%);
+    padding: 5px;
+    cursor: pointer
+}
+
+.brands_nav i {
+    color: #e5e5e5;
+    -webkit-transition: all 200ms ease;
+    -moz-transition: all 200ms ease;
+    -ms-transition: all 200ms ease;
+    -o-transition: all 200ms ease;
+    transition: all 200ms ease
+}
+
+.brands_nav:hover i {
+    color: #676767
+}
+
+.brands_prev {
+    left: 40px
+}
+
+.brands_next {
+    right: 40px
+}
+
+.owl-carousel .owl-stage {
+    align-items: center;
+    display: flex;
+}
+
+.btn-request {
+    background-color: #77A5B0;
+    color: white;
+    font-weight: 600;
+    padding: 10px 30px;
+    border-radius: 0;
+}
+
+.footer-1 {
+    height: 200px;
+    background-color: #77A5B0;
+    font-size: 18px;
+    font-weight: 600;
+    padding: 20px;
+}
+
+.footer-2 {
+    background-color: white;
+    font-size: 14px;
+    font-weight: 400;
+    padding: 20px;
+}
+
+
+@media only screen and (max-width: 1280px) {
+    .about-us {
+        margin: 30px 0;
+        position: relative;
+        display: inline-block;
+    }
+    
+    .about-us .img-folder {
+        position: absolute;
+        top: 60px;
+        left: 200px;
+    }
+    
+    .img-close {
+        position: absolute;
+        top: 7px;
+        left: 100px;
+    }
+    
+    .about-us-text {
+        position: absolute;
+        top: 110px;
+        left: 200px;
+        font-weight: 600;
+        text-transform: uppercase;
+        font-size: 15px;
+    }
+    
+    .about-us-desc {
+        position: absolute;
+        top: 140px;
+        left: 200px;
+        width: 700px;
+        font-size: 14px;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    .video-hero {
+        margin-top: 30px;
+        height: 220px;
+    }
+
+    .about-us {
+        margin: 30px 0;
+        position: relative;
+        display: inline-block;
+        height: auto;
+    }
+
+    .about-us .img-about {
+        width: 340px;
+        height: 250px;
+    }
+
+    .about-us .img-folder {
+        position: absolute;
+        top: 50px;
+        left: 10px;
+        height: 24px;
+    }
+
+    .img-close {
+        position: absolute;
+        top: 7px;
+        left: 14px;
+    }
+
+    .about-us-text {
+        position: absolute;
+        top: 80px;
+        left: 20px;
+        font-weight: 600;
+        text-transform: uppercase;
+        font-size: 11px;
+    }
+    
+    .about-us-desc {
+        position: absolute;
+        top: 95px;
+        left: 20px;
+        font-size: 11px;
+        width: 300px;
+    }
+
+    .card-works{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        width: 100px;
+        height: 100px;
+        margin: 10px;
+    }
+
+    .card-works img{
+        display: block;
+        width: 100px;
+        height: 100px;
+        object-fit: cover;
+        border-radius: 5px
+    }
+
+    .card-wrapper {
+        padding: 10px;
+    }
+
+    #tabs .nav-tabs .nav-item.show .nav-link, .nav-tabs .nav-link.active {
+        background-color: transparent;
+        border-color: transparent transparent #f3f3f3;
+        border-bottom: 2px solid !important;
+        font-size: 14px;
+        font-weight: 600;
+        display: flex;
+    }
+
+    #tabs .nav-tabs .nav-link {
+        border: 1px solid transparent;
+        border-top-left-radius: .25rem;
+        border-top-right-radius: .25rem;
+        font-size: 14px;
+    }
+
+    .nav-fill .nav-item, .nav-fill > .nav-link {
+        text-align: left;
+    }
+
+    .footer-1 {
+        height: 190px;
+        background-color: #77A5B0;
+        font-size: 14px;
+        font-weight: 400;
+        padding: 15px;
+        text-align: center
+    }
+
+    .footer-1 img {
+        display: block;
+        margin: auto;
+    }
+
+    .footer-2 span {
+        font-size: 11px;
+        font-weight: 400;
+        text-align: center
+    }
+}
